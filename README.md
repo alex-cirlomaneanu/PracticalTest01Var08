@@ -1,1 +1,3 @@
 # PracticalTest01Var08
+Cirlomaneanu Alexandru
+341C5
