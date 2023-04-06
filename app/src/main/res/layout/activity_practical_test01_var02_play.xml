@@ -4,36 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PracticalTest01Var08MainActivity">
+    tools:context=".PracticalTest01Var02PlayActivity">
 
-    <EditText
-        android:id="@+id/riddle"
-        android:layout_marginTop="30dp"
+    <TextView
+        android:id="@+id/riddle2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="_"
-        android:minHeight="48dp"
-        android:saveEnabled="false"
         />
 
     <EditText
-        android:id="@+id/answer"
+        android:id="@+id/answer2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/riddle2"
         android:text="_"
-        android:layout_below="@+id/riddle"
         android:minHeight="48dp"
-        android:saveEnabled="false"
         />
 
     <Button
-        android:id="@+id/play"
+        android:id="@+id/check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/answer"
-        android:text="Play"
-        android:layout_marginLeft="165dp"
+        android:layout_below="@id/answer2"
         android:gravity="center"
+        android:text="Check"
+        android:layout_marginLeft="165dp"
+        />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:text="Back"
+        android:layout_marginLeft="165dp"
         />
 
 </RelativeLayout>
